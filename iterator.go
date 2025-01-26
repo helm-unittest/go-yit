@@ -1,6 +1,6 @@
 package yit
 
-import "gopkg.in/yaml.v3"
+import yaml "sigs.k8s.io/yaml/goyaml.v3"
 
 type (
 	Iterator  func() (*yaml.Node, bool)
