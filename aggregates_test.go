@@ -1,8 +1,11 @@
-package yit
+package yit_test
 
 import (
+	. "github.com/dprotaso/go-yit"
+
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+
 	yaml "sigs.k8s.io/yaml/goyaml.v3"
 )
 

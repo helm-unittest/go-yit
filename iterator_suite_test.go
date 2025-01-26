@@ -1,4 +1,4 @@
-package yit
+package yit_test
 
 import (
 	"testing"
