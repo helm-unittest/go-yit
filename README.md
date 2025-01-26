@@ -4,8 +4,7 @@
 
 ## Introduction
 
-This library compliments [go-yaml v3](https://github.com/go-yaml/yaml/tree/v3) by adding
-functional style methods for iterating over YAML documents.
+This library compliments [go-yaml v3](https://github.com/kubernetes-sigs/yaml/tree/master/goyaml.v3) by adding functional style methods for iterating over YAML documents.
 
 ## Usage
 
@@ -24,7 +23,7 @@ import (
 	"log"
 
 	"github.com/dprotaso/go-yit"
-	"gopkg.in/yaml.v3"
+	yaml "sigs.k8s.io/yaml/goyaml.v3"
 )
 
 var data = `
