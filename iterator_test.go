@@ -1,9 +1,7 @@
-package yit_test
+package yit
 
 import (
 	"strings"
-
-	. "github.com/dprotaso/go-yit"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
