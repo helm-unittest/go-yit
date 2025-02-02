@@ -3,10 +3,10 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 permissions:
   contents: read
@@ -31,5 +31,5 @@ jobs:
         with:
           go-version: "stable"
 
-      - name: Test with Go {{ steps.go.outputs.go-version }}
+      - name: Test with Go ${{ steps.go.outputs.go-version }}
         run: go test ./... -v -cover
